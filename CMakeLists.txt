@@ -137,7 +137,7 @@ if (!UNIX AND WIN32)
   endif()
 endif()
 
-if(${CMAKE_C_COMPILER_ID} STREQUAL MSVC)
+if("${CMAKE_C_COMPILER_ID}" STREQUAL "MSVC")
   add_definitions(/wd4100 /wd4255 /wd4820 /wd4668)
   add_definitions(-D_CRT_SECURE_NO_WARNINGS)
   

@@ -13,3 +13,6 @@ myhtml.pc
 uninstal.mk
 .vscode
 build
+build_ios/
+build_ios_device/
+build_ios_sim/
