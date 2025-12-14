@@ -1,0 +1,15 @@
+module myhtml [system] {
+    header "myhtml/myhtml.h"
+    
+    module mycore {
+        umbrella "mycore"
+        export *
+    }
+
+    module myencoding {
+        umbrella "myencoding"
+        export *
+    }
+
+    export *
+}

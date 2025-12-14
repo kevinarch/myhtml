@@ -213,6 +213,7 @@ if(MyHTML_INSTALL_HEADER)
             install(DIRECTORY "${ITEM}" DESTINATION "include" FILES_MATCHING PATTERN "*.h")
         endif()
     endforeach()
+    install(FILES "${PROJECT_DIR_API_HEADER}/module.modulemap" DESTINATION "include")
 endif()
 
 if(MyHTML_BUILD_SHARED)

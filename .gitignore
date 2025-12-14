@@ -16,3 +16,4 @@ build
 build_ios/
 build_ios_device/
 build_ios_sim/
+.DS_Store
